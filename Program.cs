@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RainbowPlant.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<RainbowPlantContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("RainbowPlantContext") ?? throw new InvalidOperationException("Connection string 'RainbowPlantContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
