@@ -20,10 +20,6 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Jenya/source/repos2/RainbowPlant/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Jenya/source/repos2/RainbowPlant/Views/Plants/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,10 +38,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Jenya/source/repos2/RainbowPlant/Views/Plants/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRzXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Jenya/source/repos2/RainbowPlant/Views/Plant/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGxhbnRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Jenya/source/repos2/RainbowPlant/Views/Shared/Error.cshtml]
