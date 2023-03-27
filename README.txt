@@ -10,7 +10,9 @@ Each inventory line has 3 option: Edit, Update, Delete.
 On the top of the page there is an option to add a new inventory item. 
 
 Feature requirements implemented in this project:
-1.	Implement a regular expression (regex). I implemented a regex to validate Unit Price field to insure there is only 2 decimal places.  
-2.	Make your application Asynchronous. PlantContorller. cs file uses asynchronous methods for actions of Edit, Update and Delete. 
-3.	Add comments to your code explaining how you’re using at least 2 of the solid principles. (still working to add)
 
+1.	Implement a regular expression (regex). I implemented a regex to validate Unit Price field to insure there is only 2 decimal places.  
+2.	Made a CRUD MVC application. 
+3.	Add comments to your code explaining how you're using at least 2 of the solid principles (still working to add) 
+
+And most likely I will add unit tests.
