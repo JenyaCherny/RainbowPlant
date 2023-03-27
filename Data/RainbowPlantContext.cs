@@ -7,7 +7,7 @@ using RainbowPlant.Models;
 
 namespace RainbowPlant.Data
 {
-    public class RainbowPlantContext : DbContext
+    public class RainbowPlantContext : DbContext //Single Responsibility Principle. This class is responsibel only for handling Plants Context.
     {
         public RainbowPlantContext (DbContextOptions<RainbowPlantContext> options)
             : base(options)
