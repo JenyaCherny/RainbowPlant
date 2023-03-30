@@ -10,8 +10,17 @@ The Inventory list page currently has a list of 6 plants with fields: `Plant Nam
 Each inventory line has 3 options: `Edit`, `Update`, `Delete`. On the top of the page, there is an option to `Create` a new inventory item.
 
 ### Feature requirements implemented in this project:
-1. Implement a regular expression (regex). I implemented a regex to validate Unit Price field to insure there are only 2 decimal places.
-2. Made a CRUD MVC application.
-3. Add comments to your code explaining how you're using at least 2 of the solid principles (still working to add)
+1. Made a CRUD MVC application.
+2. Implement a regular expression (regex). I implemented a regex to validate Unit Price field to insure there are only 2 decimal places.
+3. Implemented async await.
+4. Implemented EF (with 1 table)
 
-And most likely I will add unit tests.
+### Usage:
+1. Clone the repo on your machine
+2. Fetch NuGet packages.
+3. Run the project
+
+### System requirements:
+Visual Studio 2022, .NET 7.0 
+If you cannot run the project and receive an exception at launch, you need to add "Database.EnsureCreated()" method inside
+PlantContext constructor and then it should run with no problems.
